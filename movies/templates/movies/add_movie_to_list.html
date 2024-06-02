@@ -1,0 +1,16 @@
+<!-- templates/movies/add_movie_to_list.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Movie to List</title>
+</head>
+<body>
+    <h2>Add Movie to List: {{ movie_list.name }}</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Add Movie</button>
+    </form>
+</body>
+</html>
