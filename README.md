@@ -131,3 +131,4 @@ The idea behind the Movie Library project is to provide users with an easy-to-us
 To deploy this application, you can follow the steps provided by the hosting service (e.g., PythonAnywhere, Heroku). Ensure to configure your environment variables and database settings accordingly.
 https://medium.com/@4yub1k/free-deploy-django-project-to-pythonanywhere-1f3f08a6447f  you can consider this Medium article for Hosting you Django application
 
+This is my Hosted Web Application-http://akshatsanghi22.pythonanywhere.com/accounts/login/?next=/
